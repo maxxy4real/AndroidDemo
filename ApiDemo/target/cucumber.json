@@ -1,0 +1,67 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Widget Experimentation",
+        "description": "",
+        "id": "android-widget;widget-experimentation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13808230983,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Homescreen",
+            "match": {
+              "location": "widget.i_am_on_Homescreen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I tap Preference",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I tap Preference Dependencies",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I check the tooltip box",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@widget"
+          }
+        ]
+      }
+    ],
+    "name": "Android Widget",
+    "description": "As an Engineer\nI want to be able to select elements",
+    "id": "android-widget",
+    "keyword": "Feature",
+    "uri": "widget.feature"
+  }
+]
